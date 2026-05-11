@@ -28,3 +28,7 @@ public:
 };
 
 
+//pembuatan class dokter
+class dokter {
+public:
+}
