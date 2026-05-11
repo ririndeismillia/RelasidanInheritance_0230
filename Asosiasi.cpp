@@ -44,4 +44,8 @@ public:
         cout << "Dokter \" << nama << "\" tidak ada \n";
     }
 
-}
+    //deklarasi prosedur tambahPasien() dan CetakPasien()
+    void tambahPasien(pasien*);
+    void cetakPasien();
+};
+
