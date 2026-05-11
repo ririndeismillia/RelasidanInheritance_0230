@@ -17,4 +17,23 @@ public:
         cout << "Ibu \"" << nama << "\" ada\n";
     };
 
-    
+    ~Ibu() {
+       cout << "Ibu \"" << nama << "\" tidak ada\n";
+    };
+
+    //pendefinisian prosedur - prosedur pada class ibu dii luar class
+    void Ibu::tambahkan(anak* pAnak){
+        daftar_anak_push_back(pAnak);
+    }
+
+    void Ibu::cetakanak() {
+        cout << "Daftar Anak dari Ibu \"" << this->nama << "\":\n";
+        for (auto& a : daftar_anak)
+        {
+            cout << endl;
+        }
+
+        #endif
+    }
+      
+}
