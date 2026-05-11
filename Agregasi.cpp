@@ -16,5 +16,11 @@ intmain()
     Ibu* varIbu = new Ibu("tiara");
     Ibu* varIbu = new Ibu("dini");
 
-    
+    //panggilan dan pemberian argument pada prosedur tambahAnak()
+    varIbu->tambahAnak(varAnak1);
+    varIbu->tambahAnak(varAnak);
+    varIbu->tambahAnak(varAnak3);
+
+    return 0;
+
 }
